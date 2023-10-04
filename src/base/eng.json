@@ -1,0 +1,127 @@
+{
+  "navbar": {
+    "links": [
+      { "name": "HOME", "link": "#home" },
+      { "name": "ABOUT", "link": "#about" },
+      { "name": "SKILLS", "link": "#skills" },
+      { "name": "PROJECTS", "link": "#projects" },
+      { "name": "CONTACT", "link": "#contact" }
+    ]
+  },
+  "about": {
+    "title": "About ",
+    "span_title": "Me",
+    "sub_title": "My introduction",
+    "first_paragraph": "Hello and welcome to my online portfolio! I am a passionate Front-End developer with over two years of experience in crafting captivating and functional web experiences, specializing in technologies such as React.js and React-Redux for building modern and dynamic applications.",
+    "second_paragraph": "My journey in the world of web development has led me to explore and master various essential tools and practices, including version control systems like Git and GitLab for effective collaboration in development teams. Furthermore, my ability to create attractive and responsive designs is supported by my expertise in CSS pre-processors like SCSS, as well as my proficiency in using design libraries such as Material-UI and Tailwind CSS, allowing me to develop elegant and highly functional user interfaces.",
+    "info": [
+      { "text": "Years experience", "count": "02" },
+      { "text": "Completed Projects", "count": "04" },
+      { "text": "Companies Work", "count": "01" }
+    ],
+    "download_cv": "Download CV"
+  },
+  "hero": {
+    "Cheer": "Hello!",
+    "title": "My Name is ",
+    "span_title": "Luca Rojas Massey",
+    "sub_title": "Front-end Developer",
+    "contact_me": "Contact Me",
+    "social_media": [
+      { "icon": "logo-instagram", "link": "" },
+      { "icon": "logo-facebook", "link": "" },
+      {
+        "icon": "logo-linkedin",
+        "link": "https://www.linkedin.com/in/luca-rojas-massey-77b3a428b/"
+      },
+      { "icon": "logo-twitter", "link": "" }
+    ]
+  },
+  "projects": {
+    "projects": [
+      {
+        "img": "src/assets/images/waco_app.png",
+        "name": "Waco App",
+        "live_link": "https://nomad.wacohub.com/login/"
+      },
+      {
+        "img": "src/assets/images/gourmeats_pwa_client.png",
+        "name": "Gourmeats App PWA",
+        "live_link": "https://qr.gourmeatsapp.com/slider/kYSud8oMGLfPoXwi2AQD"
+      },
+      {
+        "img": "src/assets/images/gourmeats_admin.png",
+        "name": "Gourmeats App Admin",
+        "live_link": "https://vuecountry05.netlify.app"
+      },
+      {
+        "img": "src/assets/images/mercaZ.png",
+        "name": "MercaZ",
+        "live_link": "https://mercaz.com.co/"
+      },
+      {
+        "img": "src/assets/images/powergy.png",
+        "name": "VATIA/Powergy",
+        "live_link": "https://powergy.com.co/consumption-history"
+      }
+    ],
+    "title": "My ",
+    "span_title": "Projects",
+    "sub_title": "My awesome works",
+    "projects_demo": "Live Demo"
+  },
+  "hire_me": {
+    "title": "Hire ",
+    "span_title": "Me",
+    "sub_title": "Do you have any work?",
+    "paragraph_title": "Do you want any work from me?",
+    "first_paragraph": "What sets me apart as a professional is my proactive attitude and efficiency in problem-solving. I am constantly seeking new opportunities to learn and grow because I firmly believe that continuous education is the key to staying relevant in this ever-evolving industry. My goal is not only to be a successful developer but also a professional who adds value to every project I am a part of.",
+    "second_paragraph": "In this portfolio, I invite you to explore some of my past and current projects, which reflect my passion for creating attractive and functional interfaces using the aforementioned technologies. I am excited about what the future holds and the opportunities for development and collaboration that may arise. Thank you for visiting my portfolio and being a part of my journey in the web development industry. I hope you enjoy exploring my work, and I look forward to connecting with you soon!",
+    "button": "Say Hello"
+  },
+  "contact": {
+    "title": "Contact ",
+    "span_title": "Me",
+    "sub_title": "Get in touch",
+    "name_input": "Enter your name",
+    "email_input": "Enter your email",
+    "text_input": "Enter your message",
+    "button": "Send Message",
+    "contact_info": [
+      { "logo": "mail", "text": "lucasrojas95@gmail.com" },
+      { "logo": "logo-whatsapp", "text": "+54 9 1131728677" },
+      {
+        "logo": "location",
+        "text": "Buenos Aires, Argentina"
+      }
+    ]
+  },
+  "footer": "Copyright © 2022 LucaRM. All Rights reserved.",
+  "skills":{
+    "title": "My",
+    "span_title": "Skills",
+    "sub_title": "My knowledge",
+    "skills_data": [
+      {
+        "logo": "logo-react",
+        "level": "Expect",
+        "count": 90
+      },
+      {
+        "logo": "logo-gitlab",
+        "level": "Advance",
+        "count": 86
+      },
+      {
+        "logo": "logo-css3",
+        "level": "Intermediate",
+        "count": 75
+      },
+      {
+        "logo": "logo-nodejs",
+        "level": "Beginner",
+        "count": 40
+      }
+    ]
+  }
+}

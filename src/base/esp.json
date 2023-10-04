@@ -1,0 +1,127 @@
+{
+  "navbar": {
+    "links": [
+      { "name": "INICIO", "link": "#home" },
+      { "name": "SOBRE MI", "link": "#about" },
+      { "name": "HABILIDADES", "link": "#skills" },
+      { "name": "PROYECTOS", "link": "#projects" },
+      { "name": "CONTACTOS", "link": "#contact" }
+    ]
+  },
+  "about": {
+    "title": "Sobre",
+    "span_title": "Mi",
+    "sub_title": "Introducción",
+    "first_paragraph": "¡Hola y bienvenidos a mi portafolio en línea! Soy un apasionado desarrollador Front-End con más de dos años de experiencia en la creación de experiencias web cautivadoras y funcionales, especializado en tecnologías como React.js y React-Redux para la construcción de aplicaciones modernas y dinámicas.",
+    "second_paragraph": "Mi viaje en el mundo del desarrollo web me ha llevado a explorar y dominar diversas herramientas y prácticas esenciales, incluyendo sistemas de control de versiones como Git y GitLab para colaborar eficazmente en equipos de desarrollo. Además, mi habilidad en la creación de estilos y diseños atractivos se ve respaldada por mi experiencia en preprocesadores CSS como SCSS, así como en el uso de bibliotecas de diseño como Material-UI y Tailwind CSS, que me permiten desarrollar interfaces de usuario elegantes y altamente funcionales.",
+    "info": [
+      { "text": "Años de experiencia", "count": "02" },
+      { "text": "Proyectos Completados", "count": "04" },
+      { "text": "Trabajo en Empresas", "count": "01" }
+    ],
+    "download_cv": "Descargá mi CV"
+  },
+  "hero": {
+    "Cheer": "Hola!",
+    "title": "Mi nombre es",
+    "span_title": "Luca Rojas Massey",
+    "sub_title": "Front-end Developer",
+    "contact_me": "Contáctame",
+    "social_media": [
+      { "icon": "logo-instagram", "link": "" },
+      { "icon": "logo-facebook", "link": "" },
+      {
+        "icon": "logo-linkedin",
+        "link": "https://www.linkedin.com/in/luca-rojas-massey-77b3a428b/"
+      },
+      { "icon": "logo-twitter", "link": "" }
+    ]
+  },
+  "projects": {
+    "projects": [
+      {
+        "img": "src/assets/images/waco_app.png",
+        "name": "Waco App",
+        "live_link": "https://nomad.wacohub.com/login/"
+      },
+      {
+        "img": "src/assets/images/gourmeats_pwa_client.png",
+        "name": "Gourmeats App PWA",
+        "live_link": "https://qr.gourmeatsapp.com/slider/kYSud8oMGLfPoXwi2AQD"
+      },
+      {
+        "img": "src/assets/images/gourmeats_admin.png",
+        "name": "Gourmeats App Admin",
+        "live_link": "https://vuecountry05.netlify.app"
+      },
+      {
+        "img": "src/assets/images/mercaZ.png",
+        "name": "MercaZ",
+        "live_link": "https://mercaz.com.co/"
+      },
+      {
+        "img": "src/assets/images/powergy.png",
+        "name": "VATIA/Powergy",
+        "live_link": "https://powergy.com.co/consumption-history"
+      }
+    ],
+    "title": "Mis",
+    "span_title": "Proyectos",
+    "sub_title": "Mis increibles trabajos",
+    "projects_demo": "Link público"
+  },
+  "hire_me": {
+    "title": "Contrata",
+    "span_title": "me",
+    "sub_title": "¿Tienes algún trabajo?",
+    "paragraph_title": "¿Quieres algún trabajo de mi parte?",
+    "first_paragraph": "Lo que me distingue como profesional es mi actitud proactiva y mi eficiencia en la resolución de problemas. Siempre estoy buscando nuevas oportunidades para aprender y crecer, ya que creo firmemente que la educación continua es la clave para mantenerse relevante en esta industria en constante evolución. Mi objetivo es no solo ser un desarrollador exitoso, sino también un profesional que aporte valor a cada proyecto en el que participe.",
+    "second_paragraph": "En este portafolio, te invito a explorar algunos de mis proyectos pasados y actuales, que reflejan mi pasión por la creación de interfaces atractivas y funcionales utilizando las tecnologías mencionadas. Estoy emocionado por lo que el futuro me depara y por las oportunidades de desarrollo y colaboración que puedan surgir. Gracias por visitar mi portafolio y por ser parte de mi viaje en la industria del desarrollo web. ¡Espero que disfrutes explorando mi trabajo y que podamos conectar pronto!",
+    "button": "Dime Hola"
+  },
+  "contact": {
+    "title": "Contacta",
+    "span_title": "me",
+    "sub_title": "Mantengamonós en contacto",
+    "name_input": "Ingresá tu nombre",
+    "email_input": "Ingresá tu email",
+    "text_input": "Ingresá tu mensaje",
+    "button": "Envía tu Mensaje",
+    "contact_info": [
+      { "logo": "mail", "text": "lucasrojas95@gmail.com" },
+      { "logo": "logo-whatsapp", "text": "+54 9 1131728677" },
+      {
+        "logo": "location",
+        "text": "Buenos Aires, Argentina"
+      }
+    ]
+  },
+  "footer": "Copyright © 2022 LucaRM. Todos los derechos reservados.",
+  "skills":{
+    "title": "Mis",
+    "span_title": "Habilidades",
+    "sub_title": "Mis conocimientos",
+    "skills_data": [
+      {
+        "logo": "logo-react",
+        "level": "Experto",
+        "count": 90
+      },
+      {
+        "logo": "logo-gitlab",
+        "level": "Avanzado",
+        "count": 85
+      },
+      {
+        "logo": "logo-css3",
+        "level": "Intermedio",
+        "count": 75
+      },
+      {
+        "logo": "logo-nodejs",
+        "level": "Principiante",
+        "count": 40
+      }
+    ]
+  }
+}
