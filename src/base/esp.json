@@ -40,27 +40,27 @@
   "projects": {
     "projects": [
       {
-        "img": "src/assets/images/waco_app.png",
+        "img": "public/assets/images/waco_app.png",
         "name": "Waco App",
         "live_link": "https://nomad.wacohub.com/login/"
       },
       {
-        "img": "src/assets/images/gourmeats_pwa_client.png",
+        "img": "public/assets/images/gourmeats_pwa_client.png",
         "name": "Gourmeats App PWA",
         "live_link": "https://qr.gourmeatsapp.com/slider/kYSud8oMGLfPoXwi2AQD"
       },
       {
-        "img": "src/assets/images/gourmeats_admin.png",
+        "img": "public/assets/images/gourmeats_admin.png",
         "name": "Gourmeats App Admin",
         "live_link": "https://vuecountry05.netlify.app"
       },
       {
-        "img": "src/assets/images/mercaZ.png",
+        "img": "public/assets/images/mercaZ.png",
         "name": "MercaZ",
         "live_link": "https://mercaz.com.co/"
       },
       {
-        "img": "src/assets/images/powergy.png",
+        "img": "public/assets/images/powergy.png",
         "name": "VATIA/Powergy",
         "live_link": "https://powergy.com.co/consumption-history"
       }

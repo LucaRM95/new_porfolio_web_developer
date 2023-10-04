@@ -1,5 +1,5 @@
 import React from "react";
-import hireMe from "../../assets/images/hireMe.png";
+import hireMe from "/public/assets/images/hireMe.png";
 import { useSelector } from "react-redux";
 import { languageSelector } from "../redux/sliceLanguage";
 

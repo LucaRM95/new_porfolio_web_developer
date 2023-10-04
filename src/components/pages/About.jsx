@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../../assets/images/about.png";
+import aboutImg from "/public/assets/images/about.png";
 import { useSelector } from "react-redux";
 import { languageSelector } from "../redux/sliceLanguage";
 
@@ -38,11 +38,11 @@ const About = () => {
               <br />
               <br />
               { language_type === "ESP" ?(
-                <a href="./src/assets/Luca_Rojas_Massey_CV_Front-end_Español.pdf" download>
+                <a href="public/assets/pdf/Luca_Rojas_Massey_CV_Front-end_Español.pdf" download>
                   <button className="btn-primary">{about?.download_cv}</button>
                 </a>
               ) : (
-                <a href="./src/assets/Luca_Rojas_Massey_CV_Front-end_English.pdf" download>
+                <a href="public/assets/pdf/Luca_Rojas_Massey_CV_Front-end_English.pdf" download>
                   <button className="btn-primary">{about?.download_cv}</button>
                 </a>
               )}

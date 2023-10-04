@@ -1,5 +1,5 @@
 import React from "react";
-import heroIcon from "../../assets/images/hero.png";
+import heroIcon from "/public/assets/images/hero.png";
 import { languageSelector } from "../redux/sliceLanguage";
 import { useSelector } from "react-redux";
 
