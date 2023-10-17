@@ -1,11 +1,33 @@
 import React from "react";
+import Swal from "sweetalert2";
 import { languageSelector } from "../redux/sliceLanguage";
 import { useSelector } from "react-redux";
+import { useForm } from "@formspree/react";
 
 const Contact = () => {
   const language = useSelector(languageSelector)
+  const [ state, handleSubmit ] = useForm("xnqklrqa");
   const { language_data } = language
   const { contact } = language_data
+
+  const Toast = Swal.mixin({
+    toast: true,
+    position: 'bottom-end',
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+  })
+
+  if(state.succeeded){
+    Toast.fire({
+      icon: 'success',
+      title: contact.succeeded_message
+    })
+  }
 
   return (
     <section id="contact" className="py-10 px-3 text-white">
@@ -19,11 +41,14 @@ const Contact = () => {
           className="mt-16 flex md:flex-row flex-col
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
-          <form className="flex flex-col flex-1 gap-5">
-            <input type="text" placeholder={contact?.name_input} />
-            <input type="Email" placeholder={contact?.email_input} />
-            <textarea placeholder={contact?.text_input} rows={10}></textarea>
-            <button className="btn-primary w-fit">{contact?.button}</button>
+          <form 
+            onSubmit={handleSubmit} 
+            className="flex flex-col flex-1 gap-5" 
+          >
+            <input type="text" name="name" placeholder={contact?.name_input} required />
+            <input type="email" name="email" placeholder={contact?.email_input} required />
+            <textarea placeholder={contact?.text_input} name="content" rows={10} required></textarea>
+            <button typeof="submit" className="btn-primary w-fit">{contact?.button}</button>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact?.contact_info.map((contact, i) => (

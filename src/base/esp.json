@@ -87,6 +87,7 @@
     "email_input": "Ingresá tu email",
     "text_input": "Ingresá tu mensaje",
     "button": "Envía tu Mensaje",
+    "succeeded_message": "El mail ha sido enviado correctamente!",
     "contact_info": [
       { "logo": "mail", "text": "lucasrojas95@gmail.com" },
       { "logo": "logo-whatsapp", "text": "+54 9 1131728677" },
