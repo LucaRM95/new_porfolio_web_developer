@@ -1,5 +1,5 @@
 import React from "react";
-import Swal from "sweetalert2";
+import Swal from "sweetalert2/dist/sweetalert2.js";
 import { languageSelector } from "../redux/sliceLanguage";
 import { useSelector } from "react-redux";
 import { useForm } from "@formspree/react";
