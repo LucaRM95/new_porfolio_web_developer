@@ -25,7 +25,7 @@ const Contact = () => {
   if(state.succeeded){
     Toast.fire({
       icon: 'success',
-      title: contact.succeeded_message
+      title: contact?.succeeded_message
     })
   }
 
