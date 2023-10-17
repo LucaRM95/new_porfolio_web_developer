@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import { languageSelector } from "../redux/sliceLanguage";
 import { useSelector } from "react-redux";
@@ -72,4 +72,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default forwardRef(Contact);
