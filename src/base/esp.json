@@ -28,13 +28,12 @@
     "sub_title": "Front-end Developer",
     "contact_me": "Contáctame",
     "social_media": [
-      { "icon": "logo-instagram", "link": "" },
-      { "icon": "logo-facebook", "link": "" },
+      { "icon": "logo-instagram", "link": "https://www.instagram.com/lucarm95/" },
+      { "icon": "logo-github", "link": "https://github.com/LucaRM95" },
       {
         "icon": "logo-linkedin",
         "link": "https://www.linkedin.com/in/luca-rojas-massey-77b3a428b/"
-      },
-      { "icon": "logo-twitter", "link": "" }
+      }
     ]
   },
   "projects": {
