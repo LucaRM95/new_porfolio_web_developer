@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "/public/assets/images/about.png";
+import aboutImg from "/assets/images/about.png";
 import { useSelector } from "react-redux";
 import { languageSelector } from "../redux/sliceLanguage";
 
