@@ -1,5 +1,5 @@
 import React from "react";
-import profilePhoto from "/assets/images/profile.png";
+import profilePhoto from "/assets/images/foto-perfil.jpg";
 import { languageSelector } from "../redux/sliceLanguage";
 import { useSelector } from "react-redux";
 
