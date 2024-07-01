@@ -49,9 +49,9 @@
         "live_link": "https://qr.gourmeatsapp.com/slider/kYSud8oMGLfPoXwi2AQD"
       },
       {
-        "img": "/assets/images/gourmeats_admin.png",
-        "name": "Gourmeats App Admin",
-        "live_link": "https://vuecountry05.netlify.app"
+        "img": "/assets/images/tu-domus-admin.png",
+        "name": "Tu domus Admin (DEV)",
+        "live_link": "https://tu-domus-admin-dev.web.app/login"
       },
       {
         "img": "/assets/images/mercaZ.png",
@@ -59,9 +59,9 @@
         "live_link": "https://mercaz.com.co/"
       },
       {
-        "img": "/assets/images/powergy.png",
-        "name": "VATIA/Powergy",
-        "live_link": "https://powergy.com.co/consumption-history"
+        "img": "/assets/images/tu-domus-market.png",
+        "name": "Tu domus Market (DEV)",
+        "live_link": "https://tu-domus-dev.web.app/"
       },
       {
         "img": "/assets/images/vatia-auth.png",
