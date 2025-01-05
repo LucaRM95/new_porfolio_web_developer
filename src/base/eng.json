@@ -12,7 +12,7 @@
     "title": "About ",
     "span_title": "Me",
     "sub_title": "My introduction",
-    "first_paragraph": "Hello and welcome to my online portfolio! I am a passionate Front-End developer with over two years of experience in crafting captivating and functional web experiences, specializing in technologies such as React.js and React-Redux for building modern and dynamic applications.",
+    "first_paragraph": "Hello and welcome to my online portfolio! I am a passionate Fullstack developer with over two years of experience in crafting captivating and functional web experiences, specializing in technologies such as React.js and React-Redux for building modern and dynamic applications.",
     "second_paragraph": "My journey in the world of web development has led me to explore and master various essential tools and practices, including version control systems like Git and GitLab for effective collaboration in development teams. Furthermore, my ability to create attractive and responsive designs is supported by my expertise in CSS pre-processors like SCSS, as well as my proficiency in using design libraries such as Material-UI and Tailwind CSS, allowing me to develop elegant and highly functional user interfaces.",
     "info": [
       { "text": "Years experience", "count": "02" },
@@ -28,7 +28,10 @@
     "sub_title": "Fullstack Developer",
     "contact_me": "Contact Me",
     "social_media": [
-      { "icon": "logo-instagram", "link": "https://www.instagram.com/lucarm95/" },
+      {
+        "icon": "logo-instagram",
+        "link": "https://www.instagram.com/lucarm95/"
+      },
       { "icon": "logo-github", "link": "https://github.com/LucaRM95" },
       {
         "icon": "logo-linkedin",
@@ -102,7 +105,7 @@
     ]
   },
   "footer": "Copyright © 2022 LucaRM. All Rights reserved.",
-  "skills":{
+  "skills": {
     "title": "My",
     "span_title": "Skills",
     "sub_title": "My knowledge",
@@ -114,18 +117,18 @@
       },
       {
         "logo": "logo-gitlab",
-        "level": "Advance",
+        "level": "Advanced",
         "count": 86
       },
       {
         "logo": "logo-css3",
-        "level": "Intermediate",
-        "count": 75
+        "level": "Advanced",
+        "count": 90
       },
       {
         "logo": "logo-nodejs",
-        "level": "Beginner",
-        "count": 40
+        "level": "Advanced",
+        "count": 90
       }
     ]
   }

@@ -12,7 +12,7 @@
     "title": "Sobre",
     "span_title": "Mi",
     "sub_title": "Introducción",
-    "first_paragraph": "¡Hola y bienvenidos a mi portafolio en línea! Soy un apasionado desarrollador Front-End con más de dos años de experiencia en la creación de experiencias web cautivadoras y funcionales, especializado en tecnologías como React.js y React-Redux para la construcción de aplicaciones modernas y dinámicas.",
+    "first_paragraph": "¡Hola y bienvenidos a mi portafolio en línea! Soy un apasionado desarrollador Fullstack con más de dos años de experiencia en la creación de experiencias web cautivadoras y funcionales, especializado en tecnologías como React.js y React-Redux para la construcción de aplicaciones modernas y dinámicas.",
     "second_paragraph": "Mi viaje en el mundo del desarrollo web me ha llevado a explorar y dominar diversas herramientas y prácticas esenciales, incluyendo sistemas de control de versiones como Git y GitLab para colaborar eficazmente en equipos de desarrollo. Además, mi habilidad en la creación de estilos y diseños atractivos se ve respaldada por mi experiencia en preprocesadores CSS como SCSS, así como en el uso de bibliotecas de diseño como Material-UI y Tailwind CSS, que me permiten desarrollar interfaces de usuario elegantes y altamente funcionales.",
     "info": [
       { "text": "Años de experiencia", "count": "02" },
@@ -115,17 +115,17 @@
       {
         "logo": "logo-gitlab",
         "level": "Avanzado",
-        "count": 85
+        "count": 86
       },
       {
         "logo": "logo-css3",
-        "level": "Intermedio",
-        "count": 75
+        "level": "Avanzado",
+        "count": 90
       },
       {
         "logo": "logo-nodejs",
-        "level": "Principiante",
-        "count": 40
+        "level": "Avanzado",
+        "count": 90
       }
     ]
   }
