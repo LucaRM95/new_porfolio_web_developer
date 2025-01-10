@@ -38,11 +38,11 @@ const About = () => {
               <br />
               <br />
               { language_type === "ESP" ?(
-                <a href="/assets/pdf/Luca_Rojas_Massey_CV_Front-end_Español.pdf" download>
+                <a href="/assets/pdf/CV_Luca_Rojas_Massey_Español.pdf" download>
                   <button className="btn-primary">{about?.download_cv}</button>
                 </a>
               ) : (
-                <a href="/assets/pdf/Luca_Rojas_Massey_CV_Front-end_English.pdf" download>
+                <a href="/assets/pdf/CV_Luca_Rojas_Massey_English.pdf" download>
                   <button className="btn-primary">{about?.download_cv}</button>
                 </a>
               )}
